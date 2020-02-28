@@ -24,13 +24,15 @@
   &:hover {
     cursor: pointer;
 
-    & .background-Image {
+    .background-Image {
       transform: scale(1.1);
-      transition: transform 6s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+      transition: transform 0.6s cubic-bezier(0.25, 0.45, 0.45, 0.95);
     }
 
-    & .content {
-      opacity: 0.9;
+    .content {
+      opacity: 0.8;
+      background-color: gray;
+      color: white;
     }
   }
 
