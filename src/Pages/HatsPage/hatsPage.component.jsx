@@ -1,6 +1,6 @@
-import React from "react";
+import React from "./node_modules/react";
 import "./hatsPage.style.scss";
 
-const hatsPage = () => <div className="hats"></div>;
+const HatsPage = () => <div className="hats"></div>;
 
 export default hatsPage;
